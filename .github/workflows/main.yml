@@ -11,5 +11,23 @@ jobs:
         run: pwd
 
       - run: ls
-      
-  
+
+      - name: print todays date
+        run: date
+
+      - name: show history
+        run: history
+
+      - name: create and display file
+        run:
+           echo "this is a demo file" > demo.txt
+
+job-2:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: show list
+      run: ls -la
+
+    - name: show history
+      run: history
