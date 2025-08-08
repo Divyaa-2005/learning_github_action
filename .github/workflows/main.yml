@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: show current working directory
         run: pwd
+
+      - run: ls
       
   
