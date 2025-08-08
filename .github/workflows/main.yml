@@ -22,12 +22,12 @@ jobs:
         run:
            echo "this is a demo file" > demo.txt
 
-job-2:
-  runs-on: ubuntu-latest
+  demo-2:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: show list
-      run: ls -la
+    steps:
+      - name: show list
+        run: ls -la
 
-    - name: show history
-      run: history
+      - name: show history
+        run: history
